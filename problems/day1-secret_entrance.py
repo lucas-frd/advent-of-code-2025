@@ -14,7 +14,6 @@ for rot in rotations:
         dial -= offset
     else:
         dial += offset
-    print(dial, dial // 100)
     res += abs(dial // 100)
     dial %= 100
 print(res)
